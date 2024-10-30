@@ -1,0 +1,21 @@
+{
+    "apps": [
+      {
+        "name": "biomatric-recognition-preprod",
+        "script": "server/server.js",
+        "args": "dev"
+      },
+      {
+        "name": "biomatric-recognition-client-preprod",
+        "script": "npm --prefix ./client install && npm --prefix ./client run build",
+        "args": "dev",
+        "env": {
+        }
+      }
+  
+    ]
+  }
+  
+  
+  
+  
